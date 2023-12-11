@@ -1,0 +1,18 @@
+1st time - In this directory run
+python -m venv venv
+
+Everytime - Activate the Virtual Environment:
+source venv/bin/activate
+
+1st time - install flask:
+pip install -r ./requirements.txt
+
+1st time - Add the api key
+create a file in ./app called config.py and put in your api key
+API_KEY = 'sk-XXXXXXXXXXXXXXXXXXXXXX'
+
+Everytime - Run the app:
+python app/app.py
+
+To deactivate the venv:
+deactivate
